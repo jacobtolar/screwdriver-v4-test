@@ -2,5 +2,6 @@ shared:
   image: ubuntu:xenial
 jobs:
   main:
+    requires: [ ~commit ]
     steps:
-      - echo hello world
+      - start: echo hello world
