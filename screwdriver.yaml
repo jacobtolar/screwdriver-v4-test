@@ -1,0 +1,6 @@
+shared:
+  image: ubuntu:xenial
+jobs:
+  main:
+    steps:
+      - echo hello world
